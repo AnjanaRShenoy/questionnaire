@@ -33,7 +33,7 @@ const Questions = () => {
 
   useEffect(() => {
     console.log(number);
-    if (number >= 0 && number < question.length) {
+    if (number >= 0 && number <= question.length) {
       if (number === 1) {
         console.log("first");
         setAns(0);
